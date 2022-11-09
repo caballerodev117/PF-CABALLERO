@@ -1,0 +1,26 @@
+$btnColor1:#115733;
+$btnColor2:#441f01;
+$font1: 'Montserrat';
+$font2:'Lato';
+$boxShadow: 2px 2px 1px #adabad;
+$boxShadowDark: 4px 4px 6px #827d82;
+$boxShadowLight: 7px 7px 25px #cdc4cd;
+$textShadow: 3px 3px 10px rgb(8, 7, 7);
+$brandColor1:#562C0A;
+$brandColor2:#01793c;
+$brandColor3:#d5c0ab;
+$brandColor4:#bf7a3b;
+@mixin centered{ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@mixin titulares{
+    font-weight: 400;
+    letter-spacing: .4em;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+}

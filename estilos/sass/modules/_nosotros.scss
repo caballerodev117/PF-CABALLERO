@@ -1,0 +1,59 @@
+.margin__top{margin-top: 0%;}
+.nosotros__layout {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../../img/manos_tierra.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.nosotros__titular {
+	letter-spacing: 1rem;
+	color: rgb(236, 229, 229);
+	font-size: 150%;
+	margin-top: 7rem;
+	text-align: center;
+	text-shadow: 1px 1px 10px #121212;
+}
+.nosotros__titular2 {
+	display: inline-block;
+	letter-spacing: 0.6rem;
+	margin-top: 0.3rem;
+	text-align: center;
+	color: rgb(245, 238, 238);
+	font-size: 160%;
+	text-shadow: 1px 1px 9px #e7dede;
+}
+.nosotros__container {
+	overflow: hidden;
+	margin: auto;
+}
+.nosotros__videobox {
+	margin: 3rem;
+	border-radius: 48px;
+	width: 45%;
+	height: 300px;
+	overflow: hidden;
+}
+.nosotros__video {
+	object-fit: cover;
+}
+.nosotros__parrafo {
+	margin-top: 3rem;
+	border-radius: 48px;
+	width: 45%;
+	height: 79%;
+	>p {
+		font-size: 100%;
+		font-family: $font2;
+		color: #e3e0e0;
+		text-shadow: 1px 1px 3px #030303;
+		text-align: center;
+		padding: 1rem;
+		background-color: rgba(228, 209, 209, 0.1);
+		border-radius: 48px;
+		font-weight: 200;
+		backdrop-filter: blur(20px) saturate(180%);
+    }
+}

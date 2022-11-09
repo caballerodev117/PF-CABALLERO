@@ -1,0 +1,59 @@
+.contacto{
+    display: grid;
+    grid-template-rows: auto;
+    background-image: url(../../img/contactobg.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 100vh;
+    object-fit:cover;
+   
+    &__titular{
+        color: whitesmoke;
+        font-weight: 400;
+        letter-spacing: .4em;
+        font-size: 200%;
+        margin-top: 7%;
+        position: relative;
+        text-shadow: 3px 3px 10px rgb(8, 7, 7);
+        @include centered
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        @include centered
+    }
+
+    &__fstitle{
+        color: whitesmoke;
+        font-weight: 400;
+        letter-spacing: .4em;
+        font-size: 200%;
+        margin-top: 0%;
+        text-shadow: $textShadow;
+        @include centered;
+    }   
+    &__redes{
+        @include centered;
+    }
+    &__instagram{
+        margin-right:2rem;
+        margin-bottom: 2rem;
+        color: whitesmoke;
+        text-shadow: $textShadow;
+    }
+    &__facebook{
+        margin-left:2rem;
+        margin-bottom: 2rem;
+        color: whitesmoke;
+        text-shadow: $textShadow;
+    }
+    &__whatsapp{
+        margin-left:4rem;
+        margin-bottom: 2rem;
+        color: whitesmoke;
+        text-shadow: $textShadow;
+        }
+}
+

@@ -1,0 +1,80 @@
+.productos{
+    display: grid;
+	grid-template-columns: auto;
+	background-image: url(../../img/white_background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+		&__titular{
+			font-weight: 400;
+			letter-spacing: .4em;
+			font-size: 140%;
+			margin-top: 2%;
+			margin-bottom: 1%;
+			position: relative;
+			@include centered
+		}
+		&__videobox{
+			display: flex;
+			flex-direction: row;
+			@include centered
+		}
+		&__video1{
+			margin-right: 1%;
+			box-shadow: $boxShadowDark;
+		}
+		&__video2{
+			margin-left: 0.5%;
+			margin-right: 0.5%;
+			box-shadow: $boxShadowDark;
+		}
+		&__video3{
+			margin-left: 1%;
+			box-shadow: $boxShadowDark;
+		}
+		&__temporada{
+			margin-top: 1%;
+			margin-bottom: 1%;
+			font-weight: 200;
+			letter-spacing: .1em;
+			font-size: 150%;
+			@include centered
+		}
+		&__catalogo{
+			display: grid;
+			grid-template-rows: auto;
+		}
+		&__display{
+			display: flex;
+			@include centered
+		}
+		&__pimentones{	
+			@include centered
+		}
+		&__remolacha{
+			@include centered
+		}
+		&__zanahorias{ 
+			@include centered
+		}
+		&__tomates{
+			@include centered
+		}
+		&__miel{
+			@include centered
+		}
+}
+.thumbnail { 
+    display:block; 
+    z-index:999; 
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease ; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease;
+	&:hover { 
+		transform: scale(1.1);}
+}

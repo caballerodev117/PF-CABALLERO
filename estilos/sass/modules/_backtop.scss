@@ -1,0 +1,18 @@
+.back__top {
+	position: sticky;
+	bottom: 20px;
+	margin-right: 10px;
+	place-self: end;
+	text-decoration: none;
+	padding: 13px;
+	font-family: 'Lato';
+	color: whitesmoke;
+	background: #475b74;
+	border-radius: 55px;
+	margin-left: 95%;
+	opacity: 0.6;
+	&:hover {
+		background-color: whitesmoke;
+		color: #475b74;
+	}
+}

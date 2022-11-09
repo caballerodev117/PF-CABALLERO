@@ -1,0 +1,67 @@
+.nav__bar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-right: 2%;
+	opacity: 0.97;
+	z-index: 1;
+}
+.nav__list {
+	display: flex;
+	flex-direction: row;
+	margin-right: 2%;
+}
+.nav__list__deco {
+	height: auto;
+	width: auto;
+	border-radius: 48px;
+	background-color: $btnColor2;
+	font-size: 77%;
+	box-shadow: $boxShadow;
+	@include centered;
+}
+.button {
+	transition-duration: 0.8s;
+	&:hover {
+		background-color: $btnColor1;
+		border-radius: 48px;
+	}
+}
+.nav__item {
+	display: inline-block;
+	justify-content: center;
+}
+
+.main__hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #000000;
+	max-width: 1292px;
+	.main__titular {
+		color: whitesmoke;
+		font-weight: 400;
+		letter-spacing: .6em;
+		font-size: 210%;
+		margin-top: 5%;
+		text-shadow: 1px 1px 36px #ffffff;
+		position: absolute;
+		text-align: center;
+	}  
+	.main__video {
+		width: 145vh;
+		margin-top: 4rem;
+		object-fit: cover;
+	}
+	.main__copy {
+		position: absolute;
+		font-family: 'Lato';
+		color: whitesmoke;
+		font-weight: 300;
+		text-align: center;
+		bottom: 3%;
+		text-shadow: 1px 1px 29px #ffffff;
+	
+	}
+}
+
